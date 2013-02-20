@@ -67,7 +67,7 @@ def on_new_gmail(details):
 def hook_new_gmail():
     dbus.SessionBus().add_signal_receiver(on_new_gmail, 'NewGmail', INTERFACE, SERVICE, OBJ_PATH)
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 
 hook_new_gmail()
 gobject.timeout_add(INTERVAL * 1000, poll_start)

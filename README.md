@@ -3,3 +3,5 @@ The Gajimail Notifier is an application that alerts you when you have new Gmail 
   [1]: https://developers.google.com/talk/jep_extensions/gmail
   [2]: http://gajim.org/
   [3]: http://www.claws-mail.org/
+
+Test
